@@ -10,20 +10,6 @@ A simple mobile-first web app that allows users to enter a short reflection (e.g
 
 ---
 
-##  Getting Started
-
-###  Project Structure
-emotion-reflection-tool/
-- ├── backend/
-- │ └── main.py
-- ├── emotion-tool/ (frontend)
-- │ └── pages/
-- │ └── index.tsx
-- └── README.md
-
-
----
-
 ## 🧩 Setup Instructions
 
 ### ✅ Backend (FastAPI)
