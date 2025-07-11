@@ -14,12 +14,12 @@ A simple mobile-first web app that allows users to enter a short reflection (e.g
 
 ###  Project Structure
 emotion-reflection-tool/
-├── backend/
-│ └── main.py
-├── emotion-tool/ (frontend)
-│ └── pages/
-│ └── index.tsx
-└── README.md
+- ├── backend/
+- │ └── main.py
+- ├── emotion-tool/ (frontend)
+- │ └── pages/
+- │ └── index.tsx
+- └── README.md
 
 
 ---
@@ -30,7 +30,7 @@ emotion-reflection-tool/
 
 1. Navigate to the backend folder:
    ```bash
-   cd backend
+   cd server
    ```
 
 2. Create a virtual environment:
@@ -43,6 +43,8 @@ emotion-reflection-tool/
 3. Install dependencies:
    ```bash
    pip install fastapi uvicorn
+   or
+   pip install -r requirements.txt
    ```
 
 4. Run the FastAPI server:
@@ -55,7 +57,7 @@ emotion-reflection-tool/
 
 1. Navigate to the frontend folder:
    ```bash
-   cd emotion-tool
+   cd client/my-app
    ```
 
 2. Install dependencies:
@@ -79,11 +81,11 @@ Example JSON response from the backend:
 
 
 ### Features
--Mobile-first responsive UI
--User input via a clean textarea
--Loading state during API call
--Display emotion result in a styled card
--Graceful error handling
+- Mobile-first responsive UI
+- User input via a clean textarea
+- Loading state during API call
+- Display emotion result in a styled card
+- Graceful error handling
    
    
       
